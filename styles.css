@@ -1,0 +1,110 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #0047AB;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #1E5BA8;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Service Cards Styles */
+.card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card h3 {
+    color: #0047AB;
+}
+
+/* Button Styles */
+.button {
+    background-color: #1E5BA8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #0047AB;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0047AB;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+}
